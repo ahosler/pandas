@@ -437,7 +437,7 @@ odfpy                     1.4.1              excel            Open document form
 Access data in the cloud
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Installable with ``pip install "pandas[fss, aws, gcp, oracle]"``
+Installable with ``pip install "pandas[fss, aws, gcp, oci]"``
 
 ========================= ================== =============== =============================================================
 Dependency                Minimum Version    pip extra       Notes
@@ -447,7 +447,7 @@ fsspec                    2022.05.0          fss, gcp, aws   Handling files asid
 gcsfs                     2022.05.0          gcp             Google Cloud Storage access
 pandas-gbq                0.17.5             gcp             Google Big Query access
 s3fs                      2022.05.0          aws             Amazon S3 access
-ocifs                     1.2.1              oracle          Oracle Cloud Infrastructure's Object Storage access
+ocifs                     1.2.1              oci          Oracle Cloud Infrastructure's Object Storage access
 ========================= ================== =============== =============================================================
 
 Clipboard
