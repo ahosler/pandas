@@ -62,7 +62,7 @@ computation = ['scipy>=1.7.1', 'xarray>=0.21.0']
 fss = ['fsspec>=2021.07.0']
 aws = ['s3fs>=2021.08.0']
 gcp = ['gcsfs>=2021.07.0', 'pandas-gbq>=0.15.0']
-oracle = ['ocifs>=1.2.1']
+oci = ['ocifs>=1.2.1']
 excel = ['odfpy>=1.4.1', 'openpyxl>=3.0.7', 'pyxlsb>=1.0.8', 'xlrd>=2.0.1', 'xlsxwriter>=1.4.3']
 parquet = ['pyarrow>=7.0.0']
 feather = ['pyarrow>=7.0.0']
@@ -94,6 +94,7 @@ all = ['beautifulsoup4>=5.9.3',
        'matplotlib>=3.6.1',
        'numba>=0.53.1',
        'numexpr>=2.7.3',
+       'ocifs>=1.2.1',
        'odfpy>=1.4.1',
        'openpyxl>=3.0.7',
        'pandas-gbq>=0.15.0',
